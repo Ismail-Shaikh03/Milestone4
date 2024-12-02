@@ -211,3 +211,6 @@ def predict_target(n_clicks, input_values):
 
 #if __name__ == "__main__":
  #   app.run_server(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 8050))  
+    app.run_server(debug=True, port=port, host='0.0.0.0')
