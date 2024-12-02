@@ -209,5 +209,5 @@ def predict_target(n_clicks, input_values):
             return f"Error in prediction: {str(e)}"
     return "No prediction made yet."
 
-if __name__ == "__main__":
-    app.run_server(debug=True)
+#if __name__ == "__main__":
+ #   app.run_server(debug=True)
